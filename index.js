@@ -14,7 +14,7 @@ class Timer {
 
     start() {     
         setInterval(() => {
-            const deltaTime = this.targetDate - Date.now();
+            const deltaTime = Date.now() - this.targetDate;
             this.updateClockface(this.getTimeComponents(deltaTime));          
         }, 1000);
     }
