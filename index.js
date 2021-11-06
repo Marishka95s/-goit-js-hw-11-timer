@@ -48,7 +48,3 @@ const CountdownTimer = new Timer({
   });
 
   CountdownTimer.start();
-
-
-
-
